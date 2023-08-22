@@ -1,0 +1,145 @@
+body {
+  background-color: whitesmoke;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(2, 2, 36);
+  margin: 1%;
+}
+
+#restart{
+  position: relative;
+}
+#button-restart {
+  position: absolute;
+  background-color:rgb(2, 2, 36); ;
+  color: white;
+  border-radius: 30px;
+  top: 9%;
+  left: 2%;
+  font-weight: bold;
+  width: 16%;
+  height: 54%;
+  display: none;
+}
+#button-validate {
+  position: absolute;
+  background-color: rgb(2, 2, 36);
+  color: white;
+  border-radius: 30px;
+  top: 9%;
+  left: 74%;
+  font-weight: bold;
+  width: 16%;
+  height: 54%;
+  display: none;
+}
+.button{
+
+  background-color: rgb(2, 2, 36);
+  color:white;
+  border-radius: 30px;
+
+  font-weight: bold;
+
+
+}
+.titre {
+  width: 10%;
+}
+.titre1 {
+  width: 5%;
+}
+.etape1 {
+  width: 4.5%;
+}
+select {
+  width: 30%;
+  height: 20%;
+  margin-left: 35%;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-right: 4%;
+}
+.tapisRoulant {
+  position: relative;
+  background-color:rgb(2, 2, 36);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#tete {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 100% 100% 100% 100%;
+  width: 22%;
+}
+.bouche {
+  margin-top: 2%;
+}
+.oeil {
+  margin-top: 2%;
+}
+#color {
+  margin-top: 2%;
+}
+.cards {
+  display: flex;
+  margin-top: 3%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  position: relative;
+  margin: 1%;
+  background: #0062cc91;
+  border-radius: 4px 4px 31px 31px;
+  box-shadow: 25px -14px 23px rgb(2, 2, 36);
+}
+.card-title{
+  border-radius: 10px;
+}
+.yeux {
+  width: 70%;
+  margin-left: 19%;
+}
+.levres {
+  width: 54%;
+  margin-left: 24%;
+}
+.smiley {
+  position: relative;
+  z-index: 1;
+}
+.smiley-yeux {
+  position: absolute;
+  width: 11%;
+  top: 1px;
+  left: -3%;
+  z-index: 2;
+  display: none;
+}
+.taille {
+  width: 288%;
+}
+.voiture{
+  width: 30%;
+}
+.auto{
+  width: 87%;
+}
+.smiley-levres {
+  position: absolute;
+  top: -15%;
+  left: -8%;
+  z-index: 3;
+  width: 1%;
+  display: none;
+}
+.taille1 {
+  width: 4000%;
+}
